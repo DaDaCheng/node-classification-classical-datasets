@@ -12,3 +12,7 @@ https://arxiv.org/abs/2002.05287
 https://arxiv.org/pdf/2105.07634v1.pdf
 
 https://arxiv.org/pdf/2109.05641v1.pdf
+
+
+
+Kind note: if you run GCN/GAT/....  message passing algorithems on `chameleon` and `squirrel`, using `flow: str ='target_to_source'` instead of `flow: str ='source_to_target'` will help a lot.
